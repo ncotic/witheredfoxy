@@ -1,0 +1,9 @@
+{
+  "jumpscare": {
+    "replace": true,
+    "subtitle": "witheredfoxy.jumpscare",
+    "sounds": [
+      "witheredfoxy:scare"
+    ]
+  }
+}
