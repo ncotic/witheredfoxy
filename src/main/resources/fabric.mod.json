@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "witheredfoxy",
+  "version": "${version}",
+  "name": "WitheredFoxy",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/witheredfoxy/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.abwfl.witheredfoxy.Witheredfoxy"
+    ]
+  },
+  "mixins": [
+    "witheredfoxy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
